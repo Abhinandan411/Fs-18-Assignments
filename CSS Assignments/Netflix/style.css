@@ -21,45 +21,55 @@ header{
     padding: 20px;
 }
 nav{
+    width: 100%;
     display: flex;
 }
-.navleft img{
-    width: 20%;
+.navleft{
+    width: 50%;
+
 }
 .navright{
-    width: 18%;
-    margin: 5px;
+    width: 50%;
+    
 }
- .navright button{
+.navleft img{
+    width: 40%;
+
+}
+.navright button{
+    position: relative;
+    left: 65%;
+    top: 5%;
     background-color: red;
     border: solid red;
     color: #fff;
     padding:10px;
-    margin-left: 15px;
+    height: 40px;
+    margin-left: 20px;
     border-radius: 10px;
     cursor: pointer;
 }
-.heading{
-   margin-top: 15%;
-}
-.main-heading{
-    font-size: 50px;
-    padding: 10px;
-    margin-left:10%;
+.maincontent{
+    margin-top: 15%;
+    position: relative;
     color: #fff;
+}
+
+.main-heading{
+    margin-left: 20%;
+    font-size: 45px;
 }
 .para {
-    height: 60px;
     margin-top: 20px;
-    color: #fff;
 }
 .para1{
+    font-size:22px;
     margin-left: 35%;
-    font-size:25px;
 }
 .para2{
-    margin-left: 20%;
-    font-size:25px;
+    font-size:22px;
+    margin-top: 15px;
+    margin-left: 25%;
 }
 
 
