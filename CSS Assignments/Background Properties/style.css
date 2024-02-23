@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: rgb(56, 55, 55);
+    padding: 20px;
+    height:5rem;
+}
+nav button{
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 5%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin-left: 10%;
+}
+nav ul a{
+    color: #ffff;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.first-page img{
+    width: 100%;
+}
+.second-page{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 25px;
+}
+.second-page img{
+    width: 33%;
+    margin: 20px;
+}
+.last-page {
+   display: flex;
+   padding: 25px;
+   justify-content: space-between;
+   background-color: #000;
+   color: white;
+}
+.left{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 20px;
+}
+.right{
+    width: 55%;
+}
+.right img{
+    width: 85%;
+}
