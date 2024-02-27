@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  #wrapper {
+    display: flex;
+  }
+  aside {
+    width: 15%;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+  }
+  main {
+    width: 90%;
+
+  }
+  .icon-container i{
+    font-size: 35px;
+  }
+  .icon-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .channel-img {
+    border-radius: 50%;
+    background-color: #aaa;
+    width: 36px;
+    /* width: 100; */
+    height: 36px;
+    margin-right: 12px;
+  }
+  .thumbnail {
+    background-color: #aaa;
+    width: 320px;
+    /* width: 100%; */
+    height: 200px;
+    border-radius: 12px;
+  }
+  
+  .information {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+  
+  .title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .title a {
+    color: #000;
+  }
+  .channel-name {
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+  }
+  .channel-name a {
+    color: #555;
+  }
+  .channel-name a:hover {
+    color: #000;
+  }
+  
+  .video-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .video {
+    margin: 2rem 0.5rem;
+  }
+  header{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: #fff;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    
+  }
+  
+  
+  .logo {margin-top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .loggedin-user {
+    width: 36px;
+    height: 36px;
+    background-color: #aaa;
+    border-radius: 50%;
+  }
+  
+  .search  {
+    width: 80%;
+    height: 2.7rem;
+    border: 1px solid #d5d5d5;
+  }
+  
+  .search form, input {
+    height: 100%;
+    border-radius: 20px;
+    border: 0px none;
+    width: 100%;
+    padding-left:  10px;
+  }
+  
+  .search input {
+    outline: none;
+    padding-right: 10px;
+  }
+  
+  .search  form {
+  
+    display: flex;
+    align-items: center;
+  }
+  .lens {
+    background-color: #d5d5d5;
+    height: 100%;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  .search-flex {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .icons {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   justify-content: space-evenly;
+  }
+  .icon-container{
+    font-size: 12px;
+    color: #0f0f0f;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  
+  }
+ 
