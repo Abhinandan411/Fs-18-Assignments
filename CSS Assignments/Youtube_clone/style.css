@@ -128,8 +128,6 @@
     align-items: center;
     
   }
-  
-  
   .search-flex {
     width: 60%;
     display: flex;
@@ -137,7 +135,7 @@
     align-items: center;
     gap: 20px;
   }
-  aside {
+  aside{
     width: 15%;
     height: 100vh;
     position: sticky;
@@ -174,7 +172,7 @@
  }
  .left-icon{
   padding: 30px;
-  /* border: 2px solid; */
+
  }
  .left-icon:hover{
   /* border: 1px solid red; */
