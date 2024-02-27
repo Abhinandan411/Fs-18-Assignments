@@ -11,12 +11,7 @@
   #wrapper {
     display: flex;
   }
-  aside {
-    width: 15%;
-    height: 100vh;
-    position: sticky;
-    top: 0px;
-  }
+
   main {
     width: 90%;
 
@@ -142,6 +137,12 @@
     align-items: center;
     gap: 20px;
   }
+  aside {
+    width: 15%;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+  }
   .icons {
    display: flex;
    gap: 20px;
@@ -157,7 +158,7 @@
     flex-direction: row;
     /* justify-content: center; */
     align-items: center;
-    margin-left: 20%;
+    /* margin-left: 20%; */
   }
   .icon-container p{
     margin-left:5%;
@@ -166,8 +167,16 @@
   .icon-container:hover{
     cursor: pointer;
     background-color: lightgrey;
-    width: 80%;
+    width: 100%;
   }
  .profile-bar:hover{
   cursor: pointer;
+ }
+ .left-icon{
+  padding: 30px;
+  /* border: 2px solid; */
+ }
+ .left-icon:hover{
+  /* border: 1px solid red; */
+  background-color: lightgray;
  }
