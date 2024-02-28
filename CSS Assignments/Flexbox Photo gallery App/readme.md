@@ -5,7 +5,7 @@
 
 📌[CSS Code](./styles.css)
 
-### 🎟️[Live Link]() 
+### 🎟️[Live Link](https://abhinandan411.github.io/Fs-18-Assignments/CSS%20Assignments/Flexbox%20Photo%20gallery%20App/index.html) 
 
 
 ### 💥Project Output :  
