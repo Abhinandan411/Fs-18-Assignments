@@ -5,7 +5,7 @@
 
 📌[CSS Code](./style.css)
 
-### 🎟️[Live Link]() 
+### 🎟️[Live Link](https://abhinandan411.github.io/Fs-18-Assignments/CSS%20Assignments/Grid%20Template/index.html) 
 
 
 ### 💥Project Output :  
