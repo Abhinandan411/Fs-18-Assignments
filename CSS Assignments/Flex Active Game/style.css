@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: auto;
+    width: 100%;
+
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: rgb(241, 241, 241);
+}
+.profile-icon-container{
+    padding: 1rem;
+}
+.profile-icon-container .game-icon{
+    display: flex;
+    align-items: center;
+    margin: 2.5rem 0rem;  
+    
+}
+.game-icon img{
+   padding-right: 1rem;
+   width: 100px;
+   
+}
+.game-icon p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(103, 130, 162);
+    margin-left: 0.5rem;
+}
+.profile-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-left: 1rem ;
+    margin-bottom: 0.5rem;
+ 
+}
+.profile-section p{
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    text-align: center;
+    color: rgb(103, 130, 162);
+    font-weight: 700;
+    font-size: 25px;
+}
+.profile-section .titel{
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 20px;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    background: rgb(167, 226, 213);
+}
+.desc img{
+    width: 80px;
+}
+.desc p{
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+.games-container{
+    width: 70%;
+    padding: 9.1rem 4rem;
+    background-color: rgb(201, 242, 241);
+}
+.popular-games{
+    display: flex;
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    background-color: rgb(231, 250, 247);
+}
+.game-discription{
+    margin-left: 20px;
+}
+.Game-heading h1{
+    color: rgb(103, 130, 162);
+    font-weight: 900;
+    font-size: 3rem;
+}
+#main-loading-line{
+    background-color: rgb(232, 250, 248);
+    width: 35%;
+}
+.game-profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+
+}
+.popular-games h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: rgb(103, 130, 162);
+}
+.loading-line{
+    width: 100%;
+    margin-top: 0.3rem;
+    height: 1.3rem;
+    border-radius: 10px;
+    background-color: rgb(145, 230, 212);
+}
+.popular-games p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(59, 74, 93);
+    opacity: 0.7;
+}
+.percent{
+    margin-top: 0.5rem;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(103, 130, 162);
+}
