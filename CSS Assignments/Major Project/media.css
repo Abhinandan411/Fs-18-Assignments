@@ -1,0 +1,328 @@
+@media screen  and (max-width: 1240px ){
+    .hero-description{
+        width: 100%;
+        padding: 1rem;
+        /* margin-top: 5%; */
+    }
+    .hero-description h1 {
+        font-size: 60px;
+    }
+    .hero-description p {
+        line-height: 1.5rem;
+        font-size: 20px;
+        width: 60%;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen  and (max-width: 900px ){
+    .contact-left-section , .call-me-left-section{
+        width: 70%;
+        
+    }
+    .growth-about-section{
+        width: 60%;
+    }
+    .growth-review{
+        gap :3rem;
+    }
+    .team-section{
+        padding: 1.5rem;
+    }
+    .team-detail {
+        margin-top: 0rem;
+      }
+      .team-person{
+        width: 25%;
+      }
+      .team-header , .testemonial-heading ,.service-header{
+        width: 100%;
+      }
+      .team-header p, .testemonial-heading p,.service-header p{
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .person-image img{
+        width: 80%;
+      }
+      .first-right-business-section{
+        width: 80%;
+      }
+      .first-business-image img{
+        height: 300px;
+      }
+      .second-left-business-section{
+        width: 70%;
+      }
+      .second-business-image img{
+        height: 450px;
+      }
+      nav ul{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+
+
+
+
+
+ @media screen  and (max-width: 600px ){
+    .hamburger{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+   .logo{
+       width: 90px;
+        padding: 0;
+        margin-right: 5%;
+    }
+    .hero-description{
+        width: 100%;
+        padding: 1rem;
+        margin-top: 5%;
+    }
+    .hero-description h1 {
+        font-size: 35px;
+    }
+    .hero-description p {
+        width: 100%;
+        line-height: 1.5rem;
+        font-size: 15px;
+        padding: 6%;
+      }
+      .hero-section{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+     }
+     .hero-description a {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+     }
+
+    .intro-img{
+        margin-top: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+    .about-intro{
+        padding: 0.5rem;
+        width: 100%;
+    }
+    .intro-container{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .enviromnet{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+
+    .first-bussiness-section{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .first-business-image img , .first-left-business-section , .first-right-business-section{
+        width: 100%;
+    }
+    .first-right-busines-content h2{
+        width: 100%;
+    }
+    .first-right-busines-content{
+        margin: 0px;
+        text-align: none;
+    }
+    .first-right-busines-content h3 , p{
+        width: 100%;
+        
+    }
+    .second-bussiness-section{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        margin-top: 3rem;
+    }
+    .second-left-business-section{
+        width: 100%;
+    }
+    .second-right-business-section{
+        width: 100%;
+    }
+    .second-business-header h2{
+        font-size: 20px;
+    }
+
+
+
+
+
+    
+    .service-header , .project-header{
+        width: 95%;
+        margin-bottom: .5rem;
+        
+    }
+    .service-header h3{
+        margin-top: 1.5rem;
+       font-size: 1.5rem;
+    }
+    .service-header p{
+        margin-top: 1.5rem;
+        font-size: 1rem;
+    }
+    .service-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .service-box{
+        width: 100%;
+    }
+
+
+    .testimonial-section{
+        padding: 1.5rem;
+    }
+    .testemonial-heading{
+    width: 100%;
+    }
+    .testemonial-heading p{
+        font-size: 15px;
+    }
+    .all-testimonial{
+        display: grid;
+        grid-auto-columns: 100%;
+        grid-auto-flow: row;
+        
+    }
+    .testimonials{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    
+
+
+
+    .call-me-section{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .call-me-left-section{
+        width: 100%;
+    }
+    .call-me-right-section{
+        width: 100%;
+    }
+
+
+
+    .projects-section{
+        padding: 1.5rem;
+    }
+    .projects{
+        width: 100%;
+    }
+
+
+
+    .team-section{
+       padding: 1.5rem;
+    }
+    .team-members{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-person{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .team-header{
+        width: 100%;
+    }
+    .team-header h2{
+        font-size: 1.6rem;
+    }
+    .team-header p{
+        font-size: 15px;
+    }
+
+    .growth-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .growth-about-section{
+        width: 100%;
+    }
+    .growth-image-section{
+      width: 100%;
+    }
+    .growth-image-section {
+        margin-bottom: 2rem;
+    }
+    .growth-image-section img{
+       width: 100%;
+    }
+    .growth-review{
+        width: 80%;
+        gap: 4rem;
+    }
+    .growth-review h1{
+        font-size: 30px;
+    }
+    .growth-review p{
+        font-size: 12px;
+        margin-top: .5rem;
+    }
+
+    .contact-section{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .contact-left-section{
+        
+        width: 102%;
+       
+    }
+    .media-icons{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .contact-right-section{
+        width: 100%;
+    }
+
+
+    footer{
+        padding: 1.5rem;
+    }
+    .top-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-left{
+        width: 100%;
+    }
+    .top-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+
+
+}  
