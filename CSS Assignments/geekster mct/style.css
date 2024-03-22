@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+     
+
+}
+nav a{
+    width: 20%;
+}
+nav a img{
+    width: 50%;
+}
+nav ul li{
+    margin: 1rem;
+    color: #747070;
+}
+#log-in{
+    color: rgb(211, 91, 91);
+}
+.hero{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.hero img{
+    width: 100%;
+    height: 100vh;
+}
