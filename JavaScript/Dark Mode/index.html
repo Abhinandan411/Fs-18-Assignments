@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/v4-shims.min.css">
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        font-family: sans-serif;
+    
+    }
+    .checkbox{
+        visibility: hidden;
+    }
+    .toggle-lable{
+        width:8rem ;
+        height: 4rem;
+        background-color: #111;
+        border-radius: 50px;
+        display: inline-block;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin-bottom: 2rem;
+    }
+    .circle-btn{
+        position: absolute;
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        background-color: #fff;
+        display: inline-block;
+        margin-top: .25rem;
+        margin-left: .2rem;
+        transition: all .2s linear;
+      
+    }
+    #checkbox:checked + .toggle-lable .circle-btn{
+        transform: translateX(4rem);
+    }
+    .sun{
+        position: relative;
+        font-size: 2.8rem;
+    }
+    .moon{
+        position: relative;
+        font-size: 2.8rem;
+        
+
+    }
+
+</style>
+<body>
+    <div class="toggle-btn">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="toggle-lable" id="toggle-lable">
+            <!-- <p><i class="fa-regular fa-sun"></i></p> -->
+            <!--  -->
+            <p class="sun">🌞</p>
+            <p class="moon">🌚</p>
+            <!-- <p><i class="fa-solid fa-moon"></i></p> -->
+            <span class="circle-btn"></span>
+        </label>
+    </div>
+    <div>
+        <h1 id="heading">🔥Click to Change into Dark Mode 😎</h1>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
