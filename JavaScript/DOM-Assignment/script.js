@@ -22,5 +22,5 @@ heading.style.fontWeight = "bold";
 // 6. changing the height
 container.style.height = "200px";
 
-// 7. width of a div 
+// 7. changing width of a div 
 container.style.width = "300px";
