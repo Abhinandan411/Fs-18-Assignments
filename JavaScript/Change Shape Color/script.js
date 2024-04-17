@@ -12,8 +12,8 @@ const randomColor = function(){
 };
 
 // function to generate Randomn shape
-const randomShape = function() {
-    const shapes = ['circle', 'square', 'triangle', 'hexagon']; // Define an array of shape names
+function randomShape() {
+    const shapes = ['circle', 'square', 'triangle', 'hexagon']; // Define an array of shape<<< names
     const randomIndex = Math.floor(Math.random() * shapes.length); // Generate a random index
     // console.log(randomIndex)
     return shapes[randomIndex]; // Return the randomly selected shape
@@ -30,17 +30,23 @@ document.getElementById('changeColorBtn').addEventListener('click', function() {
 document.getElementById('changeShapeBtn').addEventListener('click' ,function(){
     //   console.log("shape", shape);
       const changeShape = randomShape();
+    
+    if (changeShape === 'circle') {
+        shape.style.clipPath = "circle(50% at 50% 50%)";
+        shape.style.backgroundColor = "red"
+    } 
 
-    if (changeShape === 'triangle') {
+    else if (changeShape === 'triangle') {
         shape.style.clipPath = "polygon(50% 0%, 0% 100%, 100% 100%)";
-        // shape.style.backgroundColor = "red"
+        shape.style.backgroundColor = "yellow"
     } 
     else if (changeShape === 'hexagon') {
         shape.style.clipPath = "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)";
-        // shape.style.backgroundColor = "green";
+        shape.style.backgroundColor = "cyan";
     }
     else {
         shape.style.clipPath = null;
+        shape.style.backgroundColor = "white";
     }
       
 

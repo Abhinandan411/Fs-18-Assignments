@@ -7,6 +7,8 @@ You need to change the colour, background colour, margin, padding, font size, fo
 
 ```
 
+[🎯Hosted Link](https://abhinandan411.github.io/Fs-18-Assignments/JavaScript/DOM-Assignment/index.html)
+
 ```
 Solution :
 
