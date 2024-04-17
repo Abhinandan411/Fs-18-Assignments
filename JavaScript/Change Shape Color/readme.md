@@ -12,4 +12,3 @@ You need to create a 'Change Shape and Color' project in which, when the user cl
 ### 🛡️Ouptut looks like :
 ![change-color-shape-DOM](https://github.com/Abhinandan411/Fs-18-Assignments/assets/131553633/f93c859c-a06d-4504-aff5-222bcbb44a15)
 
-![change-color-shape-DOM](https://github.com/Abhinandan411/Fs-18-Assignments/assets/131553633/d2023620-ebc5-44b1-890b-0e544fedcd29)
