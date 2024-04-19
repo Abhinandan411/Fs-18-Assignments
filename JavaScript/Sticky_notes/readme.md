@@ -11,5 +11,6 @@ You have to create a 'Sticky Notes' project. It will feature a text box and a co
 [🎯Hosted Link](https://abhinandan411.github.io/Fs-18-Assignments/JavaScript/Sticky_notes/index.html)
 
 ### 🛡️Ouptut looks like :
+![sticky-notes](https://github.com/Abhinandan411/Fs-18-Assignments/assets/131553633/8969cd29-f61d-4667-9dbc-a81157c54814)
 
 
