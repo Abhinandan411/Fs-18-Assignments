@@ -2,7 +2,8 @@ const button = document.querySelector("button");
 const note = document.querySelector("textarea");
 const bgColor = document.querySelector("#bg-color");
 const textColor = document.querySelector("#txt-color");
-const  rightDiv = document.querySelector(".right")
+const  rightDiv = document.querySelector(".right");
+const allNotes = document.querySelector(".all-notes");
 
 
 button.addEventListener('click' , createStickyNote);
@@ -32,7 +33,9 @@ function createStickyNote(){
     stickyNote.style.backgroundColor = bgColor.value;
     stickyNote.style.color = textColor.value;
 
-    rightDiv.append(stickyNote); //<div class="right"><div class="note"> <span class="close"> x </span> </div></div>
+    allNotes.append(stickyNote); //<div class="right"><div class="note"> <span class="close"> x </span> </div></div>
+
+
     note.value = "";
 }
 
