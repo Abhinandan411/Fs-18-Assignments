@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto , sans-serif;
+}
+body{
+    background-color: #08690d4f;
+}
+h2{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 30px;
+}
+.form{
+    text-align: center;
+    margin: 4rem 0rem;
+
+}
+.form input{
+    margin: 0px 8px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 120, 120);
+}
+.form #btn{
+    background-color: rgb(35, 94, 24);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+.information{
+    width: 70%;
+    margin: 3rem auto;
+}
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(62, 173, 105);
+    padding: 1.5rem 2.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    width: 80%;
+    margin: 1rem auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: 2px solid rgb(27, 119, 15);
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: beige;
+    padding: 1.5rem 2.5rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav{
+    margin-bottom: 1rem;
+}
+
+
+.btn{
+    padding: 8px 16px;
+    background-color: rgb(155, 34, 34);
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.plus , .minus{
+    padding: 8px 16px;
+    background-color: rgb(40, 90, 61);
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
