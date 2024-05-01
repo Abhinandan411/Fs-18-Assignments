@@ -1,0 +1,24 @@
+
+const jokePara = document.getElementById("jokePara");
+
+async function getDataFromAPI() {
+    let config = {
+        headers:{
+            Accept : "application/json",
+            // 'X-Api-Key':"KhobLzoqUZl6pJVJYACxow==wi7VTaYeePWg4pR1"
+            
+        },
+    };
+    let a = await fetch("https://icanhazdadjoke.com" , config)
+    let b = await a.json();
+    console.log(b.joke);
+    jokePara.innerText = b.joke+"🤪";
+
+}
+getDataFromAPI();
+
+document.getElementById("jokeBtn").addEventListener( ('click') , getDataFromAPI);
+
+
+
+// fetch("https://api.api-ninjas.com/v1/dadjokes")

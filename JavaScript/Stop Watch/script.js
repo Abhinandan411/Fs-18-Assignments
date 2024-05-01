@@ -6,9 +6,6 @@ let isRunning = false;
 
 
 
-
-
-
 document.getElementById("statrbtn").addEventListener(('click'), start)
 function start() {
     if (!isRunning) {
