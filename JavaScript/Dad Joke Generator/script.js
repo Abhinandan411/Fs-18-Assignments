@@ -5,8 +5,6 @@ async function getDataFromAPI() {
     let config = {
         headers:{
             Accept : "application/json",
-            // 'X-Api-Key':"KhobLzoqUZl6pJVJYACxow==wi7VTaYeePWg4pR1"
-            
         },
     };
     let a = await fetch("https://icanhazdadjoke.com" , config)
