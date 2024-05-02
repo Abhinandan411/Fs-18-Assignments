@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto , sans-serif;
+}
+
+body{
+    font-family: "Aladin", system-ui;
+    padding: 0;
+    margin: 0;
+    width:100vw;
+    height: 100vh;
+    background: linear-gradient(to right, hsl(0, 100%, 70%), hsl(120, 100%, 70%), hsl(240, 100%, 70%), hsl(60, 100%, 70%));
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+}
+.front,.back{
+    width:100%;
+}
+.back{
+    display: none;
+}
+.cards{
+    transform: perspective(800px) rotateY(0deg);
+    padding:2% 0;
+    margin:1%;
+    height:30%;
+    transition: all ease 1s;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.front{
+    position: relative;
+}
+.semi{
+    text-align: center;
+    background-color: red;
+    height:100px;
+    width:100%;
+    position: absolute;
+    top:-19%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-bottom: 30px;
+    z-index: -1;
+}
+.cards:hover{
+    transition: all ease 1s;
+    transform:rotateY(180deg);
+
+}
+.cards:hover .front{
+    display:none;
+}
+.cards:hover .back{
+    display:block;
+    transform:scaleX(-1) rotateY(0deg);
+}
+.aria{
+    background: linear-gradient(to right, hsl(0, 100%, 70%), hsl(120, 100%, 70%), hsl(240, 100%, 70%), hsl(60, 100%, 70%));
+    text-align: center;
+    padding:30px;
+}
+img{
+    margin:15px;
+    height: 45%;
+    padding: 30px;
+}
+h1{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    font-size: 4rem;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    padding: 1rem;
+}
+select,button,input{
+    cursor: pointer;
+    height:40px;
+    width:15%;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    border: transparent;
+    margin: 10px;
+    padding: 10px;
+}
+.name{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border:1.5px solid black;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 1rem;
+    padding:10px;
+    border-radius: 20px;
+    margin:10px;
+}
