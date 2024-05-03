@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        #wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, hsl(0, 57%, 65%),  hsl(240, 48%, 60%), hsl(60, 36%, 53%));;
+        }
+        .container{
+            font-family: cursive;
+            background-color: rgb(108, 230, 97);
+            width: 50%;
+            text-align: center;
+            padding: 4rem;
+            border-radius: 20px;
+            box-shadow: 2px 2px 3px 4px rgba(0,0,0,0.5);
+            color: #292020;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <h1>🔖Auto Save Textarea 📑</h1>
+            <textarea name="" id="textarea" cols="60" rows="15"></textarea>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
