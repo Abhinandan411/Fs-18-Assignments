@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #91c977;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #bae6c1;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: block;
+}
+h2 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, button {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+input:focus, button:focus {
+    outline: none;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+.display-container{
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap: 0.5rem;
+    width: 380px;
+    height: 350px;
+    padding: 1rem 3rem;
+    margin: 6rem auto;
+    background-color: #bae6c1;
+   
+}
+.display-container div span:first-of-type{
+
+    display: inline-block;
+    font-weight: 600;
+}
+.display-container div{
+    display: flex; 
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+.display-container div span:last-of-type{
+    text-transform: capitalize; 
+    display: inline-block;
+    width: 170px;
+
+}
+
+.reset-container{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.reset-container button{
+    padding: 10px 16px;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.display-container h3{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+#ci{
+    margin-left: 1.2rem;
+}
+#st{
+    margin-left: 0.6rem;
+}
